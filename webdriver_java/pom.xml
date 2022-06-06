@@ -9,8 +9,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+<<<<<<< HEAD
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.source>17</maven.compiler.source>
+=======
+        <maven.compiler.target>1.16</maven.compiler.target>
+        <maven.compiler.source>1.16</maven.compiler.source>
+>>>>>>> chapter4_complete
     </properties>
 
     <dependencies>
@@ -40,6 +45,7 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
    <build>
     <plugins>
         <plugin>
@@ -57,5 +63,24 @@
       </plugin>
     </plugins>
    </build> 
+=======
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <release>16</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> chapter4_complete
 
 </project>
