@@ -5,7 +5,6 @@
 # Maven build artifacts
 webdriver_java/target
 
-
 **/.vscode
 webdriver_java/resources/chromedriver*
 webdriver_java/resources/ngrok*
